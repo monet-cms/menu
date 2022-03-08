@@ -1,0 +1,32 @@
+{
+    "name": "monet/menu",
+    "description": "The menu module for the Monet CMS.",
+    "keywords": [
+        "monet-cms",
+        "laravel",
+        "menu"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "monet/support": "dev-main",
+        "spatie/laravel-menu": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monet\\Framework\\Menu\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "spatie/laravel-menu"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
