@@ -1,0 +1,8 @@
+{
+    "name": "monet/menu",
+    "slug": "monet/menu",
+    "providers": [
+        "Monet\\Framework\\Menu\\MenuServiceProvider"
+    ],
+    "dependencies": []
+}
